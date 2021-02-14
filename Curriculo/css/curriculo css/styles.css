@@ -1,0 +1,85 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(201, 45, 45);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#dados {
+    background-color: rgb(238, 101, 101);
+    display: flex;
+    flex-direction: row;
+    margin: 100px 50px;
+    box-shadow: -15px 10px 25px 1px black;
+    user-select: none;
+}
+
+
+
+#perfil-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: -15px 10px 25px 1px black;
+    user-select: none;
+
+}
+
+
+.img-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: -15px 10px 25px 1px black;
+} 
+
+.card-padding {
+    padding: 50px;
+}
+#card-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: -15px 10px 25px 1px black;
+
+}
+#contato {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: -15px 10px 25px 1px black;   
+
+}
+
+.btn {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 30px;
+    font-weight: 600;color: black;
+    text-decoration: none;
+    user-select: none;
+    box-shadow: -15px 10px 25px 1px black;
+
+
+
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 40px;
+}
+hr {
+    height: 3px;
+    background-color: black;
+    box-shadow: -15px 10px 25px 1px black;
+    width: 80%;
+
+}
